@@ -14,15 +14,15 @@ let ubahJadiString = function (nama) {
 //      2.1 PUSH
 // diguanakan untuk menambahkan array di paling akhir elemen
 // contoh (kode ini hanya bisa menambhakan satu persatu elemen)
-// let name = ['irfan', 'fauzi', 'rahman', 'jani'];
+let name = ['irfan', 'fauzi', 'rahman', 'jani'];
 
-// let pushArray = function (e) {
-//     name.push(e);
-//     name.forEach(function (e) {
-//         console.log(e);
-//     });
-// }
-// pushArray('setia', 'sanjay dut');
+let pushArray = function (e) {
+    name.push(e);
+    name.forEach(function (e) {
+        console.log(e);
+    });
+}
+pushArray('setia', 'sanjay dut');
 // 2.2 UNSHIFT
 // diguanakan untuk menambahkan array di awal elemen
 // name.unshift('karim);
